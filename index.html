@@ -51,6 +51,12 @@
             margin-bottom: 32px;
         }
 
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
         .btn {
             display: inline-flex;
             align-items: center;
@@ -90,10 +96,17 @@
         <h1>AJG Services</h1>
         <p>Explore and access all of our available services and platforms from one place.</p>
         
-        <a href="https://ajgplayz-studio.github.io/ajg-domains" class="btn" target="_blank" rel="noopener noreferrer">
-            <i data-lucide="globe"></i>
-            <span>ajg-domains</span>
-        </a>
+        <div class="button-group">
+            <a href="https://ajgplayz-studio.github.io/ajg-domains" class="btn" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="globe"></i>
+                <span>ajg-domains</span>
+            </a>
+
+            <a href="https://ajgplayz-studio.github.io/ajg-forms" class="btn" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="file-text"></i>
+                <span>ajg-forms</span>
+            </a>
+        </div>
     </div>
 
     <script>
